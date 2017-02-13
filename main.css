@@ -8,7 +8,6 @@ html, body, h1, h2, h3, p, ol, ul, li, a {
 body {
   padding: 0 0 0 0;
   background-color: #ffffff;
-  background-image: url(images/stardust.png);
   background-position: top left;
   background-repeat: repeat;
   font-family: Helvetica, Arial, sans-serif;
@@ -100,7 +99,6 @@ ol {
   width: 800px;
   padding: 20px 20px 20px 20px;
   margin: 30px auto 0 auto;
-  background: #ffffff url(images/crossword.png) top left repeat;
 }
 .main-content p {
  line-height: 26px;
@@ -116,7 +114,7 @@ ol {
 .featured-image {
   width: 800px;
   height: 500px;
-  background: #ffffff url(images/ElfFeatures.png) center center no-repeat;
+  background: #ffffff url(ElfFeatures.png) center center no-repeat;
 }
 .featured-image h3 {
   margin: 0;
