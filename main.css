@@ -1,0 +1,152 @@
+html, body, h1, h2, h3, p, ol, ul, li, a {
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font-size: 100%;
+  font: inherit;
+}
+body {
+  padding: 0 0 0 0;
+  background-color: #ffffff;
+  background-image: url(images/stardust.png);
+  background-position: top left;
+  background-repeat: repeat;
+  font-family: Helvetica, Arial, sans-serif;
+}
+a, a:visited, a:link, a:active {
+  color: #0000EE;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: darkred;
+}
+h1, h2, h3 {
+  color: #72b39e;
+}
+h1 {
+  color: #ffffff;
+  margin: 10px 0 15px 0;
+  text-align: center;
+}
+h2 {
+  margin: 10px 0 20px 0;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+}
+h3 {
+  margin: 15px 0 15px 0;
+  border-bottom: 1px solid #CCCCCC;
+  padding-bottom: 3px;
+  font-size: 18px;
+  font-weight: bold;
+}
+ul {
+  padding: 0 0 0 50px;
+}
+ul li {
+  margin: 0 0 5px 0;
+}
+ol {
+  padding: 0 0 0 50px;
+}
+.nav {
+  padding-left: 0;
+  margin: 5px 0 20px 0;
+  text-align: center;
+}
+.nav li {
+  display: inline;
+  padding-right: 10px;
+}
+.nav li:last-child {
+  padding-right: 0;
+}
+.recipes {
+  list-style-type: none;
+  padding: 0;
+}
+.recipes li {
+  border: 1px solid #65daea;
+  background-color: #ffffff;
+  height: 110px;
+  padding-left: 20px;
+}
+.recipes h3 {
+  border-bottom: 0;
+  margin-bottom: 5px;
+}
+.recipes a {
+  color: #7facaa;
+  text-decoration: none;
+}
+.recipes img {
+  float: left;
+  padding-right: 11px;
+}
+.header {
+  padding: 10px 10px 10px 10px;
+  background-color: #65daea;
+}
+.header a {
+  color: #ffffff;
+}
+.header img {
+  display: block;
+  margin: 0 auto 0 auto;
+}
+.main-content {
+  width: 800px;
+  padding: 20px 20px 20px 20px;
+  margin: 30px auto 0 auto;
+  background: #ffffff url(images/crossword.png) top left repeat;
+}
+.main-content p {
+ line-height: 26px;
+}
+.photos {
+  list-style-type: none;
+  padding: 0;
+}
+.photos li {
+  display: inline;
+  padding-left: 11px;
+}
+.featured-image {
+  width: 800px;
+  height: 500px;
+  background: #ffffff url(images/ElfFeatures.png) center center no-repeat;
+}
+.featured-image h3 {
+  margin: 0;
+  text-align: center;
+  background-color: #333333;
+  color: #ffffff;
+  padding: 5px 0 5px 15px;
+  text-transform: uppercase;
+}
+.footer {
+  margin-top: 20px;
+}
+.footer p {
+  color: #aaaaaa;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+.button {
+    background-color: #65daea;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-bottom: 1px solid #CCCCCC;
+    padding: 0 0 3px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 200px;
+}
